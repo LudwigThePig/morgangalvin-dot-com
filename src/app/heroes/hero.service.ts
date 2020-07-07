@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { myHeroes } from './myHeroes';
 
-@Injectable({
+@Injectable({ // make service injectable
   providedIn: 'root'
 })
 export class HeroService {
