@@ -1,1 +1,4 @@
-<p>hero-detail works!</p>
+<button (click)="goBack()">Go Back</button>
+<div *ngIf="hero !== null">
+  <h2>{{ hero.name }} is here!</h2>
+</div>
